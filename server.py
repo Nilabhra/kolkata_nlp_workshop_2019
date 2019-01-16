@@ -24,5 +24,5 @@ def infer():
 
 if __name__ == '__main__':
     global model
-    model = joblib.load('model.pkl')
+    model = joblib.load('data/model.pkl')
     app.run(port=9000, debug=True)
